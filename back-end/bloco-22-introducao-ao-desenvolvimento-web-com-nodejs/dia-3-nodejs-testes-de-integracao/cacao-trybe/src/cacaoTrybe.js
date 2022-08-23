@@ -32,4 +32,5 @@ module.exports = {
     getAllChocolates,
     getChocolateById,
     getChocolatesByBrand,
+    readCacaoTrybeFile,
 };
