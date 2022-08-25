@@ -1,4 +1,4 @@
-const express = require('express');
+/* const express = require('express');
 
 const app = express();
 
@@ -23,3 +23,4 @@ app.get("/teams/:id", existingId, (req, res) => {
   res.json(team);
 });
 
+ */
