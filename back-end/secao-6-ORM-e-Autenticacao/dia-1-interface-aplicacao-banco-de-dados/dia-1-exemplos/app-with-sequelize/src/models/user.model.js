@@ -6,7 +6,6 @@ const UserModel = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     phoneNum: DataTypes.STRING,
   });
-
   return User;
 };
 

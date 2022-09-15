@@ -14,9 +14,8 @@ const getById = async (id) => {
   return user;
 };
 
-const createUser = async (fullName, email) => {
+const createUser = async ({ fullName, email }) => {
   const newUser = await User.create({ fullName, email });
-
   return newUser;
 };
 
